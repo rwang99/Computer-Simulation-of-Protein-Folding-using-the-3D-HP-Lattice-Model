@@ -10,3 +10,4 @@ Main parameters:
 - rate: simulated annealing rate, inversely proportional to numsteps
 - numtrials: number of repetitive trials
 - energytype: energy function type. -1 is distance-based energy function, 1 is contact-based energy function
+
