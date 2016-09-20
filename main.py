@@ -17,11 +17,11 @@ protein = "PHHPPPPPPHHPPPHHHPHPPHPHHPPHPPHPPHHPPHHHHHHHPPHH"    #Protein sequenc
 
 
 numsteps = 100000                                         #number of evaluations to perform
-temperature = 600                                       #temp of simulation, 700 is good for 20 segment chain, 1200 for 50 
+temperature = 600                                       #temp of simulation, 600 is good for 48 bead contact function, 1200 is good for 48 bead distance function 
 starttemp = temperature
 rate = float(temperature-100)/float(numsteps)		#temp decrease rate for simulated annealing
 
-timelimit = 0						#length of simulation if running based on time, hours
+timelimit = .04						#length of simulation if running based on time, hours
 threshold =  0						#energy acceptance threshold for writing if based on time, 0 for none, used to save disk space
 numtrials = 3						#number of trials to run, put -1 to use time instead
 starting_direction = "R"                                #R = Right, L = Left, U = Up, D = Down
