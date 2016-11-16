@@ -1,4 +1,5 @@
 #!usr/bin/python
+#Richard Wang
 #Computer Simulation of Protein Folding using the 3D HP Lattice Model
 #Folds protein sequence in 3D using HP Lattice Model, with Simulated Annealing
 
